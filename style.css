@@ -9,7 +9,9 @@
 body {
     -webkit-font-smoothing: antialiased;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 ul {
@@ -147,10 +149,55 @@ button {
     font-style: italic;
     color: #1f2937;
     max-width: 800px;
+    font-weight: lighter;
 }
 
 .quote-thor {
  margin-top: 5px;
  margin-bottom: 50px;
  
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    
+}
+
+.sign-up-box {
+    display: flex;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 8px;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sign-up-title {
+font-weight: bold;
+font-size: 20px;
+color: #E5E7EB;
+}
+
+.sign-up-text {
+  color: #E5E7EB;
+}
+
+.sign-up-button {
+  border-color: #F9FAF8;
+  border-style: solid;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 18px;
+    flex: 1;
+
 }
